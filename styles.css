@@ -1,0 +1,227 @@
+
+/*Importing Fonts*/
+@font-face{
+    font-family: 'Poppins Black';
+    src: url('fonts/Poppins-Black.ttf');
+}
+
+@font-face{
+    font-family: 'Poppins Bold';
+    src: url('fonts/Poppins-Bold.ttf');
+}
+
+@font-face{
+    font-family: 'Poppins Regular';
+    src: url('fonts/Poppins-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'Poppins Medium';
+    src: url('fonts/Poppins-Medium.ttf');
+}
+
+
+/* Styling */
+
+.navbar-bg{
+    -fx-background-color: "#0A1519";
+    -fx-background-radius: 18 0 0 18;
+}
+
+.mainBg{
+    -fx-background-color: "#ffffff";
+    -fx-background-radius: 20;
+}
+
+.btn{
+    -fx-background-radius: 50 0 0 50;
+    -fx-background-color: white;
+}
+
+.btnCls{
+    -fx-background-color: transparent;
+}
+
+.btnMze{
+    -fx-background-color: "#0A1519";
+    -fx-width: 20;
+}
+
+.iconCls {
+    -fx-fill: "#0A1519";
+}
+
+.balance-rect{
+    -fx-arc-height: 30;
+    -fx-arc-width: 30;
+    -fx-fill: "#D8FFE6";
+}
+
+.receive-rect{
+    -fx-arc-height: 30;
+    -fx-arc-width: 30;
+    -fx-fill: "#BEE7F9";
+}
+
+.sent-rect{
+    -fx-arc-height: 30;
+    -fx-arc-width: 30;
+    -fx-fill: "#F9BEBE";
+}
+
+.iconMze{
+    -fx-fill: "#0A1519";
+}
+
+.iconSelected {
+    -fx-fill: "#0A1519";
+}
+
+.icon {
+    -fx-fill: "#ffffff";
+}
+
+.CardInfo{
+    -fx-font-family: 'Poppins Bold';
+    -fx-text-fill: "#585858"
+}
+
+.InfoLbl{
+    -fx-font-family: 'Poppins Bold';
+}
+
+.Card_Info{
+    -fx-font-family: 'Poppins Regular';
+    -fx-text-fill: "#585858";
+}
+
+.edit-card-info{
+    -fx-font-family: 'Poppins Bold';
+    -fx-text-fill: black;
+    -fx-font-size: 14.5;
+}
+
+.edit-card-infoIC{
+    -fx-fill: black;
+}
+
+
+.depositBtn{
+    -fx-background-color: "#D8FFE6";
+    -fx-background-radius: 50;
+    -fx-font-family: 'Poppins Bold';
+}
+
+.transparentBTN{
+    -fx-background-color: transparent;
+    -fx-background-radius: 50 0 0 50;
+}
+
+.transferFormText{
+-fx-font-family: 'Poppins Medium';
+}
+
+.transferField{
+-fx-background-color: transparent;
+-fx-border-radius: 50;
+-fx-pref-height: 45;
+-fx-pref-width: 187.5;
+-fx-font-family: 'Poppins Medium';
+-fx-font-size: 17.5;
+-fx-border-color: 'gray';
+}
+
+.transferField2{
+-fx-background-color: transparent;
+-fx-border-radius: 50;
+-fx-pref-height: 45;
+-fx-pref-width: 400;
+-fx-font-family: 'Poppins Medium';
+-fx-font-size: 17.5;
+-fx-border-color: 'gray';
+}
+
+.SendingFromField{
+-fx-padding: 12;
+-fx-pref-width: 400;
+-fx-border-radius: 50;
+-fx-border-color: gray;
+-fx-text-fill: gray;
+-fx-font-size: 17.5;
+-fx-font-family: 'Poppins Medium';
+-fx-alignment: center;
+}
+
+.AmountField{
+-fx-background-color: transparent;
+-fx-border-radius: 50;
+-fx-pref-height: 45;
+-fx-pref-width: 120;
+-fx-font-family: 'Poppins Medium';
+-fx-font-size: 17.5;
+-fx-border-color: 'gray';
+}
+
+.SendBtn{
+-fx-background-color: '#1AFF57';
+-fx-background-radius: 50;
+-fx-pref-height: 45;
+-fx-pref-width: 250;
+-fx-font-family: 'Poppins Medium';
+-fx-text-fill: white;
+-fx-font-size: 17.5;
+}
+
+.infoSend{
+-fx-font-family: 'Poppins Medium';
+-fx-font-size: 14;
+}
+
+.infoSend2{
+-fx-font-family: 'Poppins Medium';
+}
+
+.SettingField{
+-fx-text-fill: black;
+-fx-font-family: 'Poppins Bold';
+}
+
+.SettingField2{
+-fx-text-fill: black;
+-fx-font-family: 'Poppins Medium';
+}
+
+.LogoutBtn{
+-fx-background-color: '#FF1A1A';
+-fx-background-radius: 50;
+-fx-pref-height: 45;
+-fx-pref-width: 250;
+-fx-font-family: 'Poppins Medium';
+-fx-text-fill: white;
+-fx-font-size: 17.5;
+}
+
+
+
+
+
+/* Hover Effects */
+
+.SendBtn:hover{
+-fx-background-color: '#12C140';
+}
+
+.iconCls:hover {
+    -fx-fill: red;
+}
+.iconSelected:hover {
+    -fx-fill: gray;
+}
+
+.icon:hover {
+    -fx-fill: "#1B97C4";
+}
+
+.iconMze:hover{
+    -fx-fill: gray;
+}
